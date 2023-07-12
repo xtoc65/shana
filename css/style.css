@@ -92,3 +92,130 @@ h1
 {
     width: 100px;
 }
+
+@media (max-width:1050px)
+{
+    .description
+    {
+        margin: 0 0 0 100px;        
+        height: 260px;
+        width: 30%;
+    }
+}
+
+@media (max-width:900px)
+{
+    #block_page
+    {
+        width: 90%;
+    }
+    .description
+    {
+        margin: 0 0 0 20px;  
+        width: 35%;
+    }
+}
+
+@media (max-width:890px)
+{
+    .shana img
+    { 
+        height: 400px;
+    }
+}
+
+@media (max-width:830px)
+{
+    .shana img
+    { 
+        height: 300px;
+    }
+    .description
+    {
+        margin: 0 0 0 20px;  
+        width: 40%;
+    }
+    .ordre
+    {
+        background-size: 785px 275px;
+        height: 263px;
+        width: 99%;
+    }
+    .ordre article
+    {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:760px)
+{
+    .description
+    {
+       background-image: none;
+    }
+}
+
+@media (max-width:700px)
+{
+    header div
+    {
+       flex-direction: column;
+    }
+    .sommaire
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }    
+    .shana img
+    {
+        width: 280px;
+    }
+    .ordre
+    {
+        background-size: 720px 275px;
+    }
+    .ordre article
+    {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width:620px)
+{
+    .shana
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .ordre
+    {
+        background-size: 600px 275px;
+    }
+    .ordre article
+    {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width:500px)
+{
+    header div img
+    {
+        width: 100%;
+    }
+    .shana img
+    {
+        width: 270px;
+    }
+    .ordre
+    {
+        background-size: 430px 275px;
+    }
+    .ordre article
+    {
+        padding: 0 10px;
+    }
+}
