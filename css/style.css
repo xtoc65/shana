@@ -1,0 +1,94 @@
+#block_page
+{
+    background: #fffffc;
+    color: #181818;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a
+{
+    color: #181818;
+    text-decoration: none;
+}
+
+header div
+{
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 95%;
+}
+
+.sommaire a
+{
+    display: block;
+    margin: 15px;
+}
+
+.shana
+{
+    display: flex;
+    margin: 60px 0 0 0;
+}
+
+.shana img
+{
+    height: 500px;
+}
+
+.description
+{
+    margin: 0 0 0 200px; 
+    padding: 35px 0 0 35px;    
+    height: 270px;
+    width: 30%;
+    background-image: url(../images/fond.png);   
+}
+
+h1
+{
+    text-align: center;
+}
+
+.ordre 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 285px;
+    width: 105%;        
+    background-image: url(../images/fond_ordre.png);   
+    background-repeat: no-repeat;
+    background-size: 930px 307px; /*759px 285px 930px 307px*/
+    background-position: center;
+}
+
+.ordre article
+{
+    padding: 0 80px;
+}
+
+.jouet 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.jouet article
+{    
+    padding: 0 80px;
+}
+
+.jouet img
+{
+    width: 100px;
+}
